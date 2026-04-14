@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sahithi Taladi Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #111;
+    color: #333;
+}
+
+/* Navbar */
+nav {
+    background: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 50px;
+    position: sticky;
+    top: 0;
+}
+
+nav h2 {
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 50px;
+    background: #2c2c2c;
+    color: #fff;
+}
+
+.hero-text {
+    max-width: 50%;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero p {
+    margin: 15px 0;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    background: #4a90e2;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    padding: 50px;
+    background: #fff;
+}
+
+.about img {
+    width: 250px;
+    margin-right: 30px;
+}
+
+.about-text h2 {
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    margin-bottom: 15px;
+}
+
+.about-text a {
+    background: #4a90e2;
+    color: #fff;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Skills */
+.skills {
+    padding: 50px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.skills span {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 15px;
+    background: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Projects */
+.projects {
+    padding: 50px;
+    background: #fff;
+}
+
+.project-box {
+    margin-bottom: 20px;
+}
+
+.project-box img {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Contact */
+.contact {
+    padding: 50px;
+    background: #f4f4f4;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+}
+</style>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h2>Sahithi Taladi</h2>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-text">
+        <h1>Sahithi Taladi</h1>
+        <p>Aspiring Web Developer | Tech Enthusiast</p>
+        <button>Hire Me</button>
+    </div>
+    <img src="profile.jpg" alt="Profile Image">
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+    <img src="profile.jpg" alt="My Photo">
+    <div class="about-text">
+        <h2>About Me</h2>
+        <p>I am a passionate B.Tech student interested in web development, programming, and building creative projects. I enjoy learning new technologies and solving problems.</p>
+        <a href="resume.pdf" download>Download My Resume</a>
+    </div>
+</section>
+
+<!-- Skills -->
+<section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <span>HTML & CSS</span>
+    <span>Java</span>
+    <span>Python</span>
+    <span>C Programming</span>
+    <span>Data Structures</span>
+</section>
+
+<!-- Projects -->
+<section class="projects" id="projects">
+    <h2>Projects</h2>
+
+    <div class="project-box">
+        <h3>Chatbot Project</h3>
+        <p>A simple rule-based chatbot using Python.</p>
+        <img src="chatbot.jpg" alt="Chatbot Project">
+    </div>
+
+    
+
+</section>
+
+<!-- Contact -->
+<section class="contact" id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: sahithi@example.com</p>
+    <p>Phone: 9876543210</p>
+</section>
+
+<!-- Footer -->
+<footer>
+    <p>© 2026 Sahithi Taladi. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
